@@ -6,7 +6,7 @@
 # Define the core static/shared library for the engine.
 add_library(infer_core 
     core/tensor.cpp
-    # ops/linear.cpp  (Lo descomentaremos cuando hagamos la Capa Densa)
+    ops/linear.cpp
 )
 
 # Link the dependencies.
