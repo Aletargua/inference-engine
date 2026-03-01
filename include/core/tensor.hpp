@@ -47,6 +47,15 @@ public:
         data_.resize(total_elements, T{0});
         compute_strides();
     }
+    /**
+     * @brief Constructs a Tensor from a dynamic vector shape.
+     * @param shape A std::vector representing the size of each dimension.
+     */
+    Tensor(const std::vector<size_t>& shape) : shape_(shape) {
+        size_t total_elements = std::accumulate(shape_.begin(), shape_.end(), 1ULL, std::multiplies<size_t>());
+        data_.resize(total_elements, T{0});
+        compute_strides();
+    }
 
     /**
      * @brief Gets a raw pointer to the underlying contiguous memory.

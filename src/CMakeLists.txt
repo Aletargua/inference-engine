@@ -8,6 +8,7 @@ add_library(infer_core
     core/tensor.cpp
     ops/linear.cpp
     ops/relu.cpp
+    graph/sequential.cpp
 )
 
 # Link the dependencies.
