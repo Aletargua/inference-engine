@@ -5,7 +5,8 @@
 
 #pragma once
 
-#include "core/tensor.hpp"
+#include "ops/operator_base.hpp"
+#include <vector>
 
 namespace infer {
 namespace ops {
@@ -18,14 +19,14 @@ namespace ops {
  * @tparam T The hardware data type (e.g., float, int8_t).
  */
 template <typename T>
-class Relu {
+class Relu : public Operator<T> {
 public:
     /**
      * @brief Out-of-place forward pass: Y = max(0, X)
      * @param input  The input tensor X.
      * @param output The pre-allocated output tensor Y.
      */
-    void forward(const Tensor<T>& input, Tensor<T>& output) const;
+    void forward(const Tensor<T>& input, Tensor<T>& output) const override;
 
     /**
      * @brief In-place forward pass: X = max(0, X)
@@ -34,6 +35,14 @@ public:
      * @param tensor The tensor to modify in-place.
      */
     void forward_inplace(Tensor<T>& tensor) const;
+
+    /**
+     * @brief Shape inference: ReLU does not change the shape of the tensor.
+     */
+    std::vector<size_t> compute_output_shape(const std::span<const size_t>& input_shape) const override {
+        // Return a copy of the input shape
+        return std::vector<size_t>(input_shape.begin(), input_shape.end());
+    }
 };
 
 } // namespace ops

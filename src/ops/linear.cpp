@@ -13,15 +13,15 @@ namespace infer {
 namespace ops {
 
 template <typename T>
-void Linear<T>::forward(const Tensor<T>& input, 
-                        const Tensor<T>& weight, 
-                        const Tensor<T>& bias, 
-                        Tensor<T>& output) const {
+void Linear<T>::forward(const Tensor<T>& input, Tensor<T>& output) const {
     
     const size_t batch_size = input.shape()[0];
     const T* X = input.data();
-    const T* W = weight.data();
-    const T* b = bias.data();
+    
+    // Ahora leemos los punteros desde los atributos de la clase
+    const T* W = weight_.data();
+    const T* b = bias_.data();
+    
     T* Y = output.data();
 
     // ------------------------------------------------------------------------
