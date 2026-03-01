@@ -25,3 +25,13 @@ target_link_libraries(test_ops_linear
 include(GoogleTest)
 gtest_discover_tests(test_tensor)
 gtest_discover_tests(test_ops_linear)
+
+add_executable(test_ops_relu test_ops_relu.cpp)
+
+target_link_libraries(test_ops_relu 
+    PRIVATE 
+        infer_core 
+        GTest::gtest_main
+)
+
+gtest_discover_tests(test_ops_relu)
