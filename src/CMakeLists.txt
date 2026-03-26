@@ -9,8 +9,8 @@ add_library(infer_core
     ops/linear.cpp
     ops/relu.cpp
     graph/sequential.cpp
+    io/model_loader.cpp
 )
-
 # Link the dependencies.
 # PUBLIC: Anyone linking against 'infer_core' will also inherit 'infer_headers' and 'TBB'.
 target_link_libraries(infer_core 
