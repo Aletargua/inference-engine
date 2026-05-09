@@ -1,7 +1,0 @@
-add_test([=[TensorTest.VectorProperties]=]  /workspace/build/tests/test_tensor [==[--gtest_filter=TensorTest.VectorProperties]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TensorTest.VectorProperties]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[TensorTest.MatrixProperties]=]  /workspace/build/tests/test_tensor [==[--gtest_filter=TensorTest.MatrixProperties]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TensorTest.MatrixProperties]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[TensorTest.NCHWStrides]=]  /workspace/build/tests/test_tensor [==[--gtest_filter=TensorTest.NCHWStrides]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[TensorTest.NCHWStrides]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  test_tensor_TESTS TensorTest.VectorProperties TensorTest.MatrixProperties TensorTest.NCHWStrides)

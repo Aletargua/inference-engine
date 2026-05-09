@@ -1,5 +1,0 @@
-if(EXISTS "/workspace/build/tests/test_ops_linear[1]_tests.cmake")
-  include("/workspace/build/tests/test_ops_linear[1]_tests.cmake")
-else()
-  add_test(test_ops_linear_NOT_BUILT test_ops_linear_NOT_BUILT)
-endif()

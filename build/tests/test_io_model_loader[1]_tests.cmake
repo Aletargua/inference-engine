@@ -1,5 +1,0 @@
-add_test([=[ModelLoaderTest.LoadValidSBSFile]=]  /workspace/build/tests/test_io_model_loader [==[--gtest_filter=ModelLoaderTest.LoadValidSBSFile]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[ModelLoaderTest.LoadValidSBSFile]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[ModelLoaderTest.ThrowsOnInvalidMagicNumber]=]  /workspace/build/tests/test_io_model_loader [==[--gtest_filter=ModelLoaderTest.ThrowsOnInvalidMagicNumber]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[ModelLoaderTest.ThrowsOnInvalidMagicNumber]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  test_io_model_loader_TESTS ModelLoaderTest.LoadValidSBSFile ModelLoaderTest.ThrowsOnInvalidMagicNumber)

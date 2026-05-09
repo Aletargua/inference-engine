@@ -1,5 +1,0 @@
-add_test([=[ReluOpTest.OutOfPlaceForward]=]  /workspace/build/tests/test_ops_relu [==[--gtest_filter=ReluOpTest.OutOfPlaceForward]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[ReluOpTest.OutOfPlaceForward]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[ReluOpTest.InPlaceForward]=]  /workspace/build/tests/test_ops_relu [==[--gtest_filter=ReluOpTest.InPlaceForward]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[ReluOpTest.InPlaceForward]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  test_ops_relu_TESTS ReluOpTest.OutOfPlaceForward ReluOpTest.InPlaceForward)

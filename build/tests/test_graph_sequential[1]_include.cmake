@@ -1,5 +1,0 @@
-if(EXISTS "/workspace/build/tests/test_graph_sequential[1]_tests.cmake")
-  include("/workspace/build/tests/test_graph_sequential[1]_tests.cmake")
-else()
-  add_test(test_graph_sequential_NOT_BUILT test_graph_sequential_NOT_BUILT)
-endif()
