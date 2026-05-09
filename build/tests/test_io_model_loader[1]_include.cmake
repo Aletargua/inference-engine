@@ -1,0 +1,5 @@
+if(EXISTS "/workspace/build/tests/test_io_model_loader[1]_tests.cmake")
+  include("/workspace/build/tests/test_io_model_loader[1]_tests.cmake")
+else()
+  add_test(test_io_model_loader_NOT_BUILT test_io_model_loader_NOT_BUILT)
+endif()

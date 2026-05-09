@@ -1,0 +1,5 @@
+add_test([=[SequentialGraphTest.MLPForwardPass]=]  /workspace/build/tests/test_graph_sequential [==[--gtest_filter=SequentialGraphTest.MLPForwardPass]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SequentialGraphTest.MLPForwardPass]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SequentialGraphTest.EndToEndWeightInjection]=]  /workspace/build/tests/test_graph_sequential [==[--gtest_filter=SequentialGraphTest.EndToEndWeightInjection]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SequentialGraphTest.EndToEndWeightInjection]=]  PROPERTIES WORKING_DIRECTORY /workspace/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_graph_sequential_TESTS SequentialGraphTest.MLPForwardPass SequentialGraphTest.EndToEndWeightInjection)

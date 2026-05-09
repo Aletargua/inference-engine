@@ -1,0 +1,273 @@
+Start testing: May 09 17:27 UTC
+----------------------------------------------------------
+1/10 Testing: TensorTest.VectorProperties
+1/10 Test: TensorTest.VectorProperties
+Command: "/workspace/build/tests/test_tensor" "--gtest_filter=TensorTest.VectorProperties" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"TensorTest.VectorProperties" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.VectorProperties
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.VectorProperties
+[       OK ] TensorTest.VectorProperties (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.VectorProperties" end time: May 09 17:27 UTC
+"TensorTest.VectorProperties" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: TensorTest.MatrixProperties
+2/10 Test: TensorTest.MatrixProperties
+Command: "/workspace/build/tests/test_tensor" "--gtest_filter=TensorTest.MatrixProperties" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"TensorTest.MatrixProperties" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.MatrixProperties
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.MatrixProperties
+[       OK ] TensorTest.MatrixProperties (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.MatrixProperties" end time: May 09 17:27 UTC
+"TensorTest.MatrixProperties" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: TensorTest.NCHWStrides
+3/10 Test: TensorTest.NCHWStrides
+Command: "/workspace/build/tests/test_tensor" "--gtest_filter=TensorTest.NCHWStrides" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"TensorTest.NCHWStrides" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = TensorTest.NCHWStrides
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TensorTest
+[ RUN      ] TensorTest.NCHWStrides
+[       OK ] TensorTest.NCHWStrides (0 ms)
+[----------] 1 test from TensorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TensorTest.NCHWStrides" end time: May 09 17:27 UTC
+"TensorTest.NCHWStrides" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: LinearOpTest.ForwardPass2x2
+4/10 Test: LinearOpTest.ForwardPass2x2
+Command: "/workspace/build/tests/test_ops_linear" "--gtest_filter=LinearOpTest.ForwardPass2x2" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"LinearOpTest.ForwardPass2x2" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = LinearOpTest.ForwardPass2x2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LinearOpTest
+[ RUN      ] LinearOpTest.ForwardPass2x2
+[       OK ] LinearOpTest.ForwardPass2x2 (1 ms)
+[----------] 1 test from LinearOpTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LinearOpTest.ForwardPass2x2" end time: May 09 17:27 UTC
+"LinearOpTest.ForwardPass2x2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: ReluOpTest.OutOfPlaceForward
+5/10 Test: ReluOpTest.OutOfPlaceForward
+Command: "/workspace/build/tests/test_ops_relu" "--gtest_filter=ReluOpTest.OutOfPlaceForward" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"ReluOpTest.OutOfPlaceForward" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ReluOpTest.OutOfPlaceForward
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReluOpTest
+[ RUN      ] ReluOpTest.OutOfPlaceForward
+[       OK ] ReluOpTest.OutOfPlaceForward (0 ms)
+[----------] 1 test from ReluOpTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReluOpTest.OutOfPlaceForward" end time: May 09 17:27 UTC
+"ReluOpTest.OutOfPlaceForward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: ReluOpTest.InPlaceForward
+6/10 Test: ReluOpTest.InPlaceForward
+Command: "/workspace/build/tests/test_ops_relu" "--gtest_filter=ReluOpTest.InPlaceForward" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"ReluOpTest.InPlaceForward" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ReluOpTest.InPlaceForward
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ReluOpTest
+[ RUN      ] ReluOpTest.InPlaceForward
+[       OK ] ReluOpTest.InPlaceForward (0 ms)
+[----------] 1 test from ReluOpTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ReluOpTest.InPlaceForward" end time: May 09 17:27 UTC
+"ReluOpTest.InPlaceForward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: SequentialGraphTest.MLPForwardPass
+7/10 Test: SequentialGraphTest.MLPForwardPass
+Command: "/workspace/build/tests/test_graph_sequential" "--gtest_filter=SequentialGraphTest.MLPForwardPass" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"SequentialGraphTest.MLPForwardPass" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = SequentialGraphTest.MLPForwardPass
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SequentialGraphTest
+[ RUN      ] SequentialGraphTest.MLPForwardPass
+[       OK ] SequentialGraphTest.MLPForwardPass (0 ms)
+[----------] 1 test from SequentialGraphTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SequentialGraphTest.MLPForwardPass" end time: May 09 17:27 UTC
+"SequentialGraphTest.MLPForwardPass" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: SequentialGraphTest.EndToEndWeightInjection
+8/10 Test: SequentialGraphTest.EndToEndWeightInjection
+Command: "/workspace/build/tests/test_graph_sequential" "--gtest_filter=SequentialGraphTest.EndToEndWeightInjection" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"SequentialGraphTest.EndToEndWeightInjection" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = SequentialGraphTest.EndToEndWeightInjection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SequentialGraphTest
+[ RUN      ] SequentialGraphTest.EndToEndWeightInjection
+[       OK ] SequentialGraphTest.EndToEndWeightInjection (0 ms)
+[----------] 1 test from SequentialGraphTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SequentialGraphTest.EndToEndWeightInjection" end time: May 09 17:27 UTC
+"SequentialGraphTest.EndToEndWeightInjection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: ModelLoaderTest.LoadValidSBSFile
+9/10 Test: ModelLoaderTest.LoadValidSBSFile
+Command: "/workspace/build/tests/test_io_model_loader" "--gtest_filter=ModelLoaderTest.LoadValidSBSFile" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"ModelLoaderTest.LoadValidSBSFile" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ModelLoaderTest.LoadValidSBSFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ModelLoaderTest
+[ RUN      ] ModelLoaderTest.LoadValidSBSFile
+[       OK ] ModelLoaderTest.LoadValidSBSFile (0 ms)
+[----------] 1 test from ModelLoaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ModelLoaderTest.LoadValidSBSFile" end time: May 09 17:27 UTC
+"ModelLoaderTest.LoadValidSBSFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: ModelLoaderTest.ThrowsOnInvalidMagicNumber
+10/10 Test: ModelLoaderTest.ThrowsOnInvalidMagicNumber
+Command: "/workspace/build/tests/test_io_model_loader" "--gtest_filter=ModelLoaderTest.ThrowsOnInvalidMagicNumber" "--gtest_also_run_disabled_tests"
+Directory: /workspace/build/tests
+"ModelLoaderTest.ThrowsOnInvalidMagicNumber" start time: May 09 17:27 UTC
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+Note: Google Test filter = ModelLoaderTest.ThrowsOnInvalidMagicNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ModelLoaderTest
+[ RUN      ] ModelLoaderTest.ThrowsOnInvalidMagicNumber
+[       OK ] ModelLoaderTest.ThrowsOnInvalidMagicNumber (0 ms)
+[----------] 1 test from ModelLoaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ModelLoaderTest.ThrowsOnInvalidMagicNumber" end time: May 09 17:27 UTC
+"ModelLoaderTest.ThrowsOnInvalidMagicNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 09 17:27 UTC

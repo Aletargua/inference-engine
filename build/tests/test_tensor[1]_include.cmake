@@ -1,0 +1,5 @@
+if(EXISTS "/workspace/build/tests/test_tensor[1]_tests.cmake")
+  include("/workspace/build/tests/test_tensor[1]_tests.cmake")
+else()
+  add_test(test_tensor_NOT_BUILT test_tensor_NOT_BUILT)
+endif()

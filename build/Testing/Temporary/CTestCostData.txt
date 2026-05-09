@@ -1,0 +1,11 @@
+TensorTest.VectorProperties 1 0.00213325
+TensorTest.MatrixProperties 1 0.00192608
+TensorTest.NCHWStrides 1 0.00118804
+LinearOpTest.ForwardPass2x2 1 0.00249158
+ReluOpTest.OutOfPlaceForward 1 0.00190704
+ReluOpTest.InPlaceForward 1 0.00216279
+SequentialGraphTest.MLPForwardPass 1 0.00164438
+SequentialGraphTest.EndToEndWeightInjection 1 0.00213767
+ModelLoaderTest.LoadValidSBSFile 1 0.00137933
+ModelLoaderTest.ThrowsOnInvalidMagicNumber 1 0.00189175
+---

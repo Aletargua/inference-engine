@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinfer_core.a CMakeFiles/infer_core.dir/core/tensor.cpp.o CMakeFiles/infer_core.dir/ops/linear.cpp.o CMakeFiles/infer_core.dir/ops/relu.cpp.o CMakeFiles/infer_core.dir/graph/sequential.cpp.o CMakeFiles/infer_core.dir/io/model_loader.cpp.o
+/usr/bin/ranlib libinfer_core.a
